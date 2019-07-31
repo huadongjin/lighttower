@@ -1,2 +1,3 @@
 ### 温故而知新
-老子曰：gain new knowledge by review old.
+孔子曰：gain new knowledge by review old.
+![](/assets/kongzi.jpeg)
