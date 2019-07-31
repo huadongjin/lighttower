@@ -10,6 +10,12 @@ light tower 为项目管理知识梳理的一个项目，将日常学习和平�
 也会将提升研发效能中用到的工具单独抽离出来，分享用法和技巧，比如 Confluence 中的calendars。
 同时分享一些个人认为比较好用的工具，如 Processon  高效产出的同时还能赚点会员费。
 
+## 温故而知新
+日常用到的基础知识，恰当时机会拿出来温故而知新，如：HTTP&HTTPS
+
+## 创新学习 
+Iot 智能家居 AI
+
 ## 目录
 lighttower
 - PM - 方法论 pageId=7361342
@@ -19,3 +25,4 @@ lighttower
 - PM - 项目研发流程图 pageId=8868975
 - Scrum - 方法论
 - R&D - 技术和工具
+- HTTP&HTTPS
