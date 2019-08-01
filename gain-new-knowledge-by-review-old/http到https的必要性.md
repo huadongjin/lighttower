@@ -66,11 +66,11 @@ HTTP 协议中的请求和响应不会对通信方进行确认，也就是说存
 HTTPS 并非是应用层的一种新协议。只是 HTTP 通信接口部分用 SSL（Secure Socket Layer）和 TLS（Transport Layer Security）协议代替而已。
 通常，HTTP 直接和 TCP 通信，当使用 SSL时，则演变成先和 SSL通信，再由 SSL 和 TCP 通信，简而言之，所谓的 HTTPS，就是身披 SSL协议这层外壳的 HTTP。
 
-|应用（HTTP）|      |应用（HTTP）| 
-|:--:|     |:--:|
-|TCP|        |SSL|
-|IP|        |TCP|  
-||        |IP|     
+|应用（HTTP）|  vs    |应用（HTTP）| 
+|:--:|  :--:   |:--:|
+|TCP|    -    |SSL|
+|IP|    -    |TCP|  
+||     -   |IP|     
 
 在采用 SSL 后，HTTP 就拥有了 HTTPS 的加密、证书和完整性保护这些功能。SSL 是独立于 HTTP 的协议，所以不光是 HTTPx协议，其他运行在应用层的 SMTP 和 Telnet 等协议均可以配合 SSL 协议使用。可以说 SSL 是当今世界上应用最为广泛的网络安全技术。
 
