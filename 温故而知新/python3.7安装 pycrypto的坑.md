@@ -1,4 +1,4 @@
-## keng
+## 坑
 python3.7 安装 pycrypto 2.6.1库。
 
 通常一个新项目导入 pycharm，可能需要不同的 Python 版本和依赖包。正常执行：
@@ -11,24 +11,23 @@ python3.7 安装 pycrypto 2.6.1库。
 windows 下，通过修改 ../site-package/ 文件夹下的 文件大小写解决了。即：把 crypto 修改成 Crypto
 
 macOS 下，没看到对应的解决方案。试着通过下载安装软码包的方式，安装方式：
-
-```
+1.下载源码包
 wget https://pypi.python.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz#md5=55a61a054aa66812daf5161a0d5d7eda
 
 2.解压该包
 
-tar  -zxvf  pycrypto-2.6.1.tar.gz
+tar -zxvf pycrypto-2.6.1.tar.gz
 
 3.进入该包，通过python3 安装
 
-python3  setup.py install
+python3 setup.py install
+**
 
-```
+
 
 提示错误：
 
 
-```
 checking whether the C compiler works... no
 configure: error: in `/Library/Frameworks/Python.framework/Versions/3.7/bin/pycrypto-2.6.1':
 configure: error: C compiler cannot create executables
@@ -64,7 +63,6 @@ Traceback (most recent call last):
     raise RuntimeError("autoconf error")
 RuntimeError: autoconf error
 
-```
 
 
 
